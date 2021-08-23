@@ -1,0 +1,11 @@
+header {
+  padding: 4vh;
+  background-color: rgb(92, 90, 90);
+  color: white;
+}
+p {
+  margin-top: 1vh;
+}
+span {
+  color: orange;
+}

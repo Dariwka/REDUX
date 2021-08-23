@@ -1,0 +1,39 @@
+ul {
+  margin-top: 4vh;
+}
+li {
+  color: darkgray;
+  margin-bottom: 2vh;
+}
+li:hover {
+  color: orange;
+}
+li::marker {
+  color: darkgray;
+  font-size: 1rem;
+}
+.completed {
+  color: lightgrey;
+  text-decoration: line-through;
+}
+.completed::marker {
+  color: lightgrey;
+}
+
+button {
+  color: lightgrey;
+}
+button {
+  margin-left: 1vw;
+  background-color: transparent;
+  border: none;
+}
+button:hover {
+  border: 1px solid orange;
+  border-radius: borderRadius;
+  -webkit-border-radius: borderRadius;
+  -moz-border-radius: borderRadius;
+  -ms-border-radius: borderRadius;
+  -o-border-radius: borderRadius;
+  padding: 0;
+}

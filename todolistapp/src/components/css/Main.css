@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.25rem;
+}
+
+main {
+  padding: 4vh;
+}
+
+footer {
+  font-size: 1rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+li {
+  cursor: pointer;
+}
