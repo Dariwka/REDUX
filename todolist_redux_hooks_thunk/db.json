@@ -1,0 +1,24 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "text": "to buy milk",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "text": "to sell clothes",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "text": "to wash dishes",
+      "completed": true
+    },
+    {
+      "id": 4,
+      "text": "to go for a walk",
+      "completed": false
+    }
+  ]
+}

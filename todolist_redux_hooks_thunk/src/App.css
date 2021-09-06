@@ -1,0 +1,45 @@
+main {
+  padding: 2rem;
+}
+
+form {
+  padding: 2rem 2rem 0 2rem;
+}
+
+form input {
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  margin-left: 0.3rem;
+}
+
+.addButton,
+.resete {
+  background-color: darkorange;
+  border: none;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  margin: 0 0.6rem;
+}
+
+.todo {
+  color: green;
+}
+
+.todo.strike {
+  color: grey;
+  text-decoration: line-through;
+}
+
+button {
+  font-size: inherit;
+}
+
+.list {
+  padding-left: 2rem;
+}
+
+.material-icons {
+  margin: 0.5rem;
+  transform: scale(1.5);
+  color: red;
+}

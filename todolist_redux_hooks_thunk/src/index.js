@@ -2,12 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import { createStore } from "redux";
-import { composeWithDevTools } from "redux-devtools-extension";
 import { Provider } from "react-redux";
-import reducer from "./store/reducer";
 
-const store = createStore(reducer, composeWithDevTools());
+import store from "./store/store";
 
 ReactDOM.render(
   <Provider store={store}>
