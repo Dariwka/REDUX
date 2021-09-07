@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import NewNote from "./containers/NewNote";
 import Notes from "./containers/Notes";
 
-import { initializeNotes } from "./store/reducers/reducer";
+import { initializeNotes } from "./store/actions";
 import { useDispatch } from "react-redux";
 
 import "./App.css";

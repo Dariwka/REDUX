@@ -1,21 +1,15 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-
-import * as actionTypes from "../store/actions";
+import { toggleTodo, deleteOneNote } from "../store/actions";
 
 const Notes = () => {
   const notes = useSelector((state) => state);
   const dispatch = useDispatch();
 
-  const toggleTodo = (id) => ({
-    type: actionTypes.TOGGLE_TODO,
-    id: id,
-  });
-
-  const deleteNote = (id) => ({
-    type: actionTypes.DELETE_TODO,
-    id: id,
-  });
+  const handleDelete = (event, id) => {
+    event.stopPropagation();
+    dispatch(deleteOneNote(id));
+  };
 
   return (
     <div>
@@ -27,8 +21,8 @@ const Notes = () => {
             className={note.completed ? "strike todo" : "todo"}
           >
             {note.text}
-            <button onClick={() => dispatch(deleteNote(note.id))}>
-              Delete Note
+            <button onClick={(event) => handleDelete(event, note.id)}>
+              Delete
             </button>
           </li>
         ))}

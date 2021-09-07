@@ -1,6 +1,7 @@
 import React from "react";
+
 import { useDispatch } from "react-redux";
-import { createNote } from "../store/reducers/reducer";
+import { createNote } from "../store/actions";
 
 const NewNote = () => {
   const dispatch = useDispatch();
